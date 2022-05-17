@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Samuel Widenka - Recruitment task</title>
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="hero">
+        <div class="items img">
+            <img src="images/img-hero.png" alt="img" class="img-desktop">
+            <img src="images/sean-o-KMn4VEeEPR8-unsplash_1_s6zmfh_ar_1_1,c_fill,g_auto__c_scale,w_450.jpg" alt="img" class="img-mobile">
+        </div>
+        <div class="container">
+        <div class="items text">
+            <h1 class="text-01">Lorem Ipsum</h1>
+            <p class="text-02">Infinitely scalable, feature-rich and cloud-native data management and protection for modern and legacy infrastructures and SaaS platforms, managed via a single app with no hardware required.</p>
+            <button class="button" onclick="openPopup(), onClick()">Button</button>
+        </div>
+    </div>
+    </div>
+    <div class="fullscreen" id="popupscreen" onclick="closePopup()"></div>
+    <div class="popup" id="popup">
+        <h1 class="popup-t-1">
+            Alert!
+        </h1>
+        <p class="popup-t-2">
+            You have clicked <b><a id="clicks"></a></b><b> times</b> to related button. 
+            <button class="button-reset" id="icon" type="reset" onClick="reset()">Reset</button>
+        </p>
+        <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 6L6 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M6 6L18 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg> 
+    </div>
+    <script src="src/js/main.js"></script>
+</body>
